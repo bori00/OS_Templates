@@ -8,10 +8,7 @@
 
 /** -lpthread */
 
-#define NO_ARGS 1
-#define NO_SEMAPHORES 2
-#define MUTEX 0
-#define SEM_NO_NON_FINISHED_THREADS 1
+#define NO_ARGS
 
 #define PARAMS_ERROR 1
 #define THREAD_CREATE_ERROR 2

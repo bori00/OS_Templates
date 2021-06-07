@@ -39,7 +39,7 @@ int main(int  argc, char** argv) {
             case 0:
                 // child
                 ret_value = process(i);
-                return ret_value;
+                goto cleanup;
             default:
                 continue;
         }
